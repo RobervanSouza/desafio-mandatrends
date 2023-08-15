@@ -1432,7 +1432,9 @@ footer {
     margin-left: 4%;
     font-size: 9px;
   }
-
+.imagem-reuniao{
+  margin-top: 3.3rem;
+}
 .simbolo-barra1 img{
   width: 94%;
 }
@@ -1485,9 +1487,10 @@ margin-top: -3rem;
   }
   
   .simbolo img {
-    width: 97%;
+    width: 96%;
     height: 182px;
-    margin-top: 3%;
+    margin-left: -18px;
+    margin-top: -18%;
   }
   .simbolo-logo {
     position: absolute;
