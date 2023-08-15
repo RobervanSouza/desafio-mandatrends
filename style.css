@@ -6,7 +6,7 @@
 
 body {
   background-color: #e2dddd;
-
+  
   margin: 0;
   padding: 0;
 }
@@ -1005,6 +1005,7 @@ footer {
   }
   .simbolo-setas {
     left: 54%;
+    top: 34%;
   }
 
   .simbolo-mulher {
@@ -1014,43 +1015,47 @@ footer {
 
   .texto-right {
     top: 119%;
-    left: 55%;
+    left: 45%;
     position: absolute;
   }
   .texto-header {
     width: 223px;
   }
-  .texto-header {
-    font-size: 9px;
+  .texto-header p {
+    font-size: 38px;
   }
   .simbolo-triangulo {
     left: 88%;
+  }
+  .simbolo-triangulo img{
+      width: 23px;
   }
   .simbolo-cobrinha {
     left: 77%;
     top: 75%;
   }
   .simbolo-cobrinha img {
-    width: 60%;
+    width: 40%;
   }
 
   .imagem-reuniao img {
     width: 100%;
     height: 153px;
+    margin-top: -4%;
   }
 
   .texto {
-    left: 6%;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   .texto h1 {
     margin-bottom: 1%;
-    font-size: 24px;
+    font-size: 21px;
+    margin-left: -11px;
   }
   .texto p {
     margin-right: 4%;
     margin-left: 4%;
-    font-size: 19px;
+    font-size: 14px;
     margin-bottom: 1%;
   }
   .fonte p {
@@ -1058,8 +1063,6 @@ footer {
     font-size: 12px;
   }
 
-  .simbolo-barra1 img {
-  }
 
   .volei-whatsapp {
     width: 94%;
@@ -1079,7 +1082,7 @@ footer {
   }
 
   .imagens h3 {
-    font-size: 19px;
+    font-size: 15px;
   }
   .imagens p {
     font-size: 0.9rem;
@@ -1088,13 +1091,14 @@ footer {
   }
 
   .barraNBA {
-    width: 46%;
+    width: 56%;
+    height: 222px;
     margin-top: 2%;
     margin-left: 2%;
   }
   .barraNBA img {
     width: 100%;
-    height: 2%;
+    height: 5%;
     margin-bottom: 2%;
   }
 
@@ -1110,19 +1114,19 @@ footer {
     position: absolute;
   }
   .simbolo img {
-    width: 100%;
+    width: 97%;
     height: 182px;
     margin-top: 3%;
   }
   .simbolo-logo {
     position: absolute;
-    width: 450px;
+    width: 350px;
     display: flex;
     align-items: center;
   }
   .simbolo-logo img {
-    width: 100%;
-    height: 85px;
+    width: 80%;
+    height: 55px;
   }
   .clique-aqui {
     text-decoration: underline;
@@ -1150,6 +1154,378 @@ footer {
   }
   .footer-texto p {
     color: #646768;
+  }
+  .link a {
+    color: #646768;
+  }
+}
+@media only screen and (max-width: 470px) {
+  main {
+    margin-left: 1.5%;
+  }
+
+  .fundo img {
+    height: 130px;
+  }
+  .simbolo-left {
+    width: 27%;
+    max-width: 337px;
+    left: -9%;
+    top: 29%;
+   
+  }
+  .simbolo-left img {
+    width: 90%;
+  }
+  .simbolo-nome {
+    top: 44%;
+    left: 9%;
+  }
+  .simbolo-nome img {
+    width: 77%;
+  }
+
+  .simbolo-pontinhos {
+    top: 71%;
+    left: 36%;
+  }
+
+  .simbolo-pontinhos img {
+    width: 80%;
+  }
+  .simbolo-setas {
+    left: 54%;
+    top: 34%;
+  }
+
+  .simbolo-mulher {
+    left: 54%;
+    margin-top: 5%;
+  }
+
+  .texto-right {
+    top: 119%;
+    left: 38%;
+    position: absolute;
+  }
+  .texto-header {
+    width: 223px;
+  }
+  .texto-header p {
+    font-size: 38px;
+  }
+  .simbolo-triangulo {
+    left: 88%;
+  }
+  .simbolo-triangulo img{
+      width: 23px;
+  }
+  .simbolo-cobrinha {
+    left: 77%;
+    top: 75%;
+  }
+  .simbolo-cobrinha img {
+    width: 40%;
+  }
+
+  .imagem-reuniao img {
+    width: 100%;
+    height: 153px;
+    margin-top: -4%;
+  }
+
+  .texto {
+    margin-bottom: 1rem;
+  }
+  .texto h1 {
+    margin-bottom: 1%;
+    font-size: 16px;
+    margin-left: -11px;
+  }
+  .texto p {
+    margin-right: 4%;
+    margin-left: 4%;
+    font-size: 12px;
+    margin-bottom: 3%;
+  }
+  .fonte p {
+    margin-left: 4%;
+    font-size: 9px;
+  }
+
+
+  .volei-whatsapp {
+    width: 94%;
+    height: min-content;
+    margin-left: 3%;
+    align-items: center;
+    display: flex;
+  }
+  .imagens {
+    margin-bottom: 1%;
+    margin-top: 6%;
+    gap: 4px;
+   
+    width: 48%;
+    height: 323px;
+    
+  }
+
+  .imagens h3 {
+    font-size: 12px;
+  }
+  .imagens p {
+    font-size: 0.6rem;
+    margin-left: 2%;
+    color: #b2b1b2;
+  }
+
+  .barraNBA {
+    width: 56%;
+    height: 222px;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .barraNBA img {
+    width: 100%;
+    height: 5%;
+    margin-bottom: 2%;
+  }
+
+  .simbolo {
+
+    width: 96vw;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .simbolo img {
+    width: 97%;
+    height: 182px;
+    margin-top: 3%;
+  }
+  .simbolo-logo {
+    position: absolute;
+    width: 350px;
+    display: flex;
+    align-items: center;
+  }
+  .simbolo-logo img {
+    width: 80%;
+    height: 55px;
+  }
+  .clique-aqui {
+    text-decoration: underline;
+    color: rgb(7, 7, 8);
+    cursor: pointer;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 1%;
+    height: 134px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 56px;
+  }
+  .footer-texto p {
+    color: #646768;
+    font-size: .7rem;
+  }
+  .link a {
+    color: #646768;
+  }
+}
+@media only screen and (max-width: 410px) {
+  main {
+    margin-left: 3.9%;
+
+    width: 91.5%;
+  }
+
+
+  .fundo img {
+    height: 99px;
+  }
+  .simbolo-left {
+   
+    left: -11%;
+    top: 35%;
+  }
+  .simbolo-left img {
+    width: 90%;
+  }
+  .simbolo-nome {
+    top: 44%;
+    left: 9%;
+  }
+  .simbolo-nome img {
+    width: 77%;
+  }
+
+  .simbolo-pontinhos {
+    top: 69%;
+    left: 32%;
+  }
+
+  .simbolo-pontinhos img {
+    width: 80%;
+  }
+  .simbolo-setas {
+    left: 47%;
+    top: 34%;
+  }
+
+  .simbolo-mulher {
+    left: 47%;
+    margin-top: 3%;
+  }
+
+  .texto-right {
+    top: 132%;
+    left: 28%;
+    position: absolute;
+  }
+  .texto-header {
+    width: 223px;
+  }
+  .texto-header {
+    font-size: 9px;
+  }
+  .simbolo-triangulo {
+    left: 88%;
+  }
+  .simbolo-triangulo img{
+      width: 23px;
+  }
+  .simbolo-cobrinha {
+    left: 72%;
+    top: 75%;
+  }
+  .simbolo-cobrinha img {
+    width: 40%;
+  }
+  .texto h1 {
+    margin-bottom: 1%;
+    font-size: 13px;
+    margin-left: -11px;
+  }
+  .texto p {
+    margin-right: 4%;
+    margin-left: 4%;
+    font-size: 9px;
+    margin-bottom: 1%;
+  }
+  .fonte p {
+    margin-left: 4%;
+    font-size: 9px;
+  }
+
+.simbolo-barra1 img{
+  width: 94%;
+}
+  .volei-whatsapp {
+    width: 94%;
+    height: min-content;
+    margin-left: 3%;
+margin-top: -3rem;
+  }
+  .imagens {
+    margin-bottom: 1%;
+    margin-top: 6%;
+    gap: 4px;
+   
+    width: 48%;
+    height: 323px;
+    
+  }
+.simbolo-barra1{
+  margin-top: -6px;
+}
+  .imagens h3 {
+    font-size: 12px;
+  }
+  .imagens p {
+    font-size: 0.6rem;
+    margin-left: 2%;
+    color: #b2b1b2;
+  }
+
+  .barraNBA {
+    width: 56%;
+    height: 222px;
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .barraNBA img {
+    width: 100%;
+    height: 5%;
+    margin-bottom: 2%;
+  }
+
+  .simbolo {
+
+    width: 96vw;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .simbolo img {
+    width: 97%;
+    height: 182px;
+    margin-top: 3%;
+  }
+  .simbolo-logo {
+    position: absolute;
+    width: 250px;
+    display: flex;
+    align-items: center;
+  }
+  .simbolo-logo img {
+    width: 100%;
+    height: 55px;
+  }
+  .clique-aqui {
+    text-decoration: underline;
+    color: rgb(7, 7, 8);
+    cursor: pointer;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 1%;
+    height: 134px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    height: 56px;
+  }
+  .footer-texto p {
+    color: #646768;
+    font-size: .7rem;
   }
   .link a {
     color: #646768;
