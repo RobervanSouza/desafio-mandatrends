@@ -53,10 +53,10 @@ O projeto está organizado em diferentes seções dentro do HTML:
 - O projeto pode ser estendido com mais conteúdo, funcionalidades e páginas adicionais, conforme necessário. 
 - O projeto é responsivo e se adapta a diferentes tamanhos de tela, garantindo uma experiência consistente em dispositivos móveis e desktop.
 
-# Autor 
-## Robervan Souza 
+## Autor 
+### Robervan Souza 
 
-# Contato:
-## email: rob.robervan@hotmail.com
-## telefone: ( 89 ) 99453-2058
-## likedin: https://www.linkedin.com/in/robervan-souza/
+## Contato:
+### email: rob.robervan@hotmail.com
+### telefone: ( 89 ) 99453-2058
+### likedin: https://www.linkedin.com/in/robervan-souza/
