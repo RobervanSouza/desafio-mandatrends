@@ -12,9 +12,8 @@ body {
 }
 
 .fundo {
-  /* position: relative; */
   width: 96vw;
-  margin-top: 1rem; /* Espaçamento entre as imagens */
+  margin-top: 1rem; 
 }
 
 .fundo img {
@@ -55,7 +54,6 @@ body {
   max-width: 237px;
   left: -4%;
   top: 53px;
-  /* background-color: aqua; */
 }
 
 .simbolo-left img {
@@ -146,7 +144,6 @@ body {
 
 main {
   background-color: #ffffff;
-  /* background-color:#e82828; */
   margin-left: 1%;
   width: 97%;
   margin-top: -3rem;
@@ -170,7 +167,6 @@ main {
 .imagem-reuniao img {
   width: 98%;
   height: 450px;
-  /* object-fit: contain; */
 }
 
 .texto {
@@ -213,7 +209,6 @@ main {
   width: 100%;
 }
 .volei-whatsapp {
-  /* margin-top: 2%; */
   width: 94%;
   height: min-content;
   margin-left: 3%;
@@ -343,11 +338,11 @@ footer {
   .simbolo-cobrinha {
     left: 76%;
   }
-
+/* 
   .simbolo-cobrinha img {
     width: 100%;
     height: auto;
-  }
+  } */
 
   .texto-right {
     left: 66%;
@@ -363,11 +358,10 @@ footer {
     margin-left: 3%;
   }
 
-  .imagem-reuniao img {
+  /* .imagem-reuniao img {
     width: 98%;
     height: 450px;
-    /* object-fit: contain; */
-  }
+  } */
 
   .texto {
     margin-top: 1rem;
@@ -375,18 +369,21 @@ footer {
   }
   .texto h1 {
     margin-bottom: 1rem;
+    font-size: 2.1rem;
   }
   .texto p {
     margin-right: 4%;
     margin-left: 4%;
-
+    font-size: 1.3rem;
     margin-bottom: 1%;
   }
   .fonte p {
     margin-left: 4%;
+    font-size: 1rem;
+
   }
   .texto {
-    margin-bottom: 17rem;
+    margin-bottom: 4rem;
   }
 
   .simbolo-barra1 {
@@ -431,36 +428,30 @@ footer {
     margin-bottom: 2%;
   }
 
-  .simbolo {
+  /* .simbolo {
     width: 96vw;
-  }
-  .simbolo p {
+  } */
+  /* .simbolo p {
     position: absolute;
   }
   .simbolo img {
     width: 100%;
-  }
-  .simbolo-logo {
+  } */
+  /* .simbolo-logo {
     width: 450px;
   }
   .simbolo-logo img {
     width: 100%;
     height: 85px;
-  }
-
+  } */
+/* 
   footer {
     margin-left: 1%;
   }
   .footer-texto {
     width: 600px;
     height: 56px;
-  }
-  .footer-texto p {
-    color: #646768;
-  }
-  .link a {
-    color: #646768;
-  }
+  } */
 }
 
 @media only screen and (max-width: 900px) {
@@ -487,7 +478,7 @@ footer {
 
   .simbolo-mulher {
     left: 54%;
-    top: 54%;
+    top: 61%;
   }
 
   .texto-right {
@@ -501,19 +492,19 @@ footer {
   .simbolo-cobrinha {
     left: 75%;
   }
-
+/* 
   .simbolo-barra1 img {
     width: 100%;
-  }
-  .volei-whatsapp {
+  } */
+  /* .volei-whatsapp {
     width: 94%;
     height: min-content;
     margin-left: 3%;
 
     align-items: center;
     display: flex;
-  }
-  .imagens {
+  } */
+  /* .imagens {
     margin-top: 6%;
     gap: 24px;
     align-items: flex-start;
@@ -525,8 +516,8 @@ footer {
   .imagens img {
     height: 423px;
     width: 100%;
-  }
-
+  } */
+/* 
   .imagens h3 {
     font-size: 2rem;
   }
@@ -601,10 +592,11 @@ footer {
   }
   .link a {
     color: #646768;
-  }
+  } */
   .texto {
     left: 6%;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+   
   }
   .texto h1 {
     margin-bottom: 1%;
@@ -660,6 +652,7 @@ footer {
 
   .simbolo-mulher {
     left: 54%;
+    top: 51%;
   }
 
   .texto-right {
@@ -674,7 +667,7 @@ footer {
     font-size: 9px;
   }
   .simbolo-triangulo {
-    left: 89%;
+    left: 91%;
   }
   .simbolo-cobrinha {
     left: 77%;
@@ -683,6 +676,8 @@ footer {
   .simbolo-cobrinha img {
     width: 60%;
   }
+
+
 
   .texto {
     left: 6%;
@@ -871,6 +866,7 @@ footer {
   .imagem-reuniao img {
     width: 100%;
     height: 153px;
+    margin-top: -1%;
   }
 
   .texto {
@@ -972,7 +968,8 @@ footer {
 }
 @media only screen and (max-width: 570px) {
   main {
-    margin-left: 1.5%;
+    margin-left: 2.9%;
+    width: 94%;
   }
 
   .fundo img {
@@ -1072,22 +1069,23 @@ footer {
     display: flex;
   }
   .imagens {
-    margin-bottom: 1%;
+    margin-bottom: -10%;
     margin-top: 6%;
     gap: 4px;
    
     width: 48%;
-    height: 323px;
+    height: 275px;
     
   }
-
+.imagens img{
+  height: 143px;
+}
   .imagens h3 {
     font-size: 15px;
   }
   .imagens p {
     font-size: 0.9rem;
     margin-left: 2%;
-    color: #b2b1b2;
   }
 
   .barraNBA {
@@ -1099,24 +1097,22 @@ footer {
   .barraNBA img {
     width: 100%;
     height: 5%;
-    margin-bottom: 2%;
+    
   }
 
   .simbolo {
+margin-left: -1.1%;
+   
 
-    width: 96vw;
-
-    align-items: center;
-    display: flex;
-    justify-content: center;
   }
   .simbolo p {
     position: absolute;
   }
   .simbolo img {
-    width: 97%;
-    height: 182px;
+    width: 95%;
+    height: 142px;
     margin-top: 3%;
+   
   }
   .simbolo-logo {
     position: absolute;
@@ -1128,40 +1124,14 @@ footer {
     width: 80%;
     height: 55px;
   }
-  .clique-aqui {
-    text-decoration: underline;
-    color: rgb(7, 7, 8);
-    cursor: pointer;
-  }
-  footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+ 
 
-    margin-left: 1%;
-    height: 134px;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-  }
-  .footer-texto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 600px;
-    height: 56px;
-  }
-  .footer-texto p {
-    color: #646768;
-  }
-  .link a {
-    color: #646768;
-  }
+
 }
 @media only screen and (max-width: 470px) {
   main {
-    margin-left: 1.5%;
+    margin-left: 3.9%;
+    width: 92%;
   }
 
   .fundo img {
@@ -1289,22 +1259,17 @@ footer {
   .barraNBA img {
     width: 100%;
     height: 5%;
-    margin-bottom: 2%;
+ 
   }
-
-  .simbolo {
-
-    width: 96vw;
-
-    align-items: center;
-    display: flex;
-    justify-content: center;
+  .simbolo{
   }
   
   .simbolo img {
-    width: 97%;
-    height: 182px;
-    margin-top: 3%;
+    width: 92%;
+    margin-left: -6%;
+    height: 142px;
+    margin-top: -24%;
+    
   }
   .simbolo-logo {
     position: absolute;
@@ -1459,12 +1424,7 @@ margin-top: -3rem;
   .imagens h3 {
     font-size: 12px;
   }
-  .imagens p {
-    font-size: 0.6rem;
-    margin-left: 2%;
-    color: #b2b1b2;
-  }
-
+  
   .barraNBA {
     width: 56%;
     height: 222px;
@@ -1479,7 +1439,7 @@ margin-top: -3rem;
 
   .simbolo {
 
-    width: 96vw;
+    width: 95vw;
 
     align-items: center;
     display: flex;
@@ -1487,10 +1447,10 @@ margin-top: -3rem;
   }
   
   .simbolo img {
-    width: 96%;
-    height: 182px;
-    margin-left: -18px;
-    margin-top: -18%;
+    width: 97%;
+    height: 122px;
+    margin-left: -9px;
+    margin-top: -28%;
   }
   .simbolo-logo {
     position: absolute;
@@ -1501,6 +1461,7 @@ margin-top: -3rem;
   .simbolo-logo img {
     width: 100%;
     height: 55px;
+    margin-top: -44%;
   }
   .clique-aqui {
     text-decoration: underline;
@@ -1513,24 +1474,11 @@ margin-top: -3rem;
     justify-content: center;
 
     margin-left: 1%;
-    height: 134px;
+    height: 94px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
   }
-  .footer-texto {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 400px;
-    height: 56px;
-  }
-  .footer-texto p {
-    color: #646768;
-    font-size: .7rem;
-  }
-  .link a {
-    color: #646768;
-  }
+  
+  
 }
