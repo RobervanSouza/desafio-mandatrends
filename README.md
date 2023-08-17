@@ -41,12 +41,6 @@ O projeto está organizado em diferentes seções dentro do HTML:
 - `style.css`: Arquivo de estilo que define a aparência visual do site.
 - Pasta `assets`: Contém as imagens utilizadas no site, numeradas de acordo com sua referência nos elementos HTML.
 
-## Instruções
-
-1. Faça o download dos arquivos `index.html` e `style.css`.
-2. Crie uma pasta chamada `assets` e coloque todas as imagens referenciadas no projeto dentro dela.
-3. Abra o arquivo `index.html` em um navegador da web para visualizar o site.
-
 ## Observações
 
 - Certifique-se de que todas as imagens referenciadas estejam localizadas na pasta `assets` para garantir que elas sejam exibidas corretamente no site.
